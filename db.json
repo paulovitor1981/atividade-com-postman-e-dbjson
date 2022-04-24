@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "email": "paulo.cdvitor@hotmail.com",
+      "password": "juxlove77",
+      "nome": "paulo",
+      "id": 1
+    },
+    {
+      "email": "julianapbvitor@hotmail.com",
+      "password": "$2a$10$U9qV5B0W42/g974CnQV.QOSrqOHp6hEzkNyEQykYHplO3jr9lcjda",
+      "nome": "paulo",
+      "id": 2
+    }
+  ],
+  "noticias": [
+    {
+      "id": 1,
+      "imagem": "assets/img/img/mascarado.jpg",
+      "titulo": "Hoje tá frio",
+      "descricao": "Hoje em São Paulo tá mto frio"
+    },
+    {
+      "id": 2,
+      "imagem": "assets/img/img/bilhar.jpg",
+      "titulo": "Hoje tá frio",
+      "descricao": "Hoje em São Paulo tá mto frio"
+    },
+    {
+      "id": 3,
+      "imagem": "assets/img/img/futebol.jpg",
+      "titulo": "Hoje tá frio",
+      "descricao": "Hoje em São Paulo tá mto frio"
+    }
+   
+ ]
+}

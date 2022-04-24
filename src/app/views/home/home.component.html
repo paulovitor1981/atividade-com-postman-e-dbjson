@@ -1,0 +1,94 @@
+<header>
+    <div class="container-grid">
+        <a href=""><img class="logo"src= "assets/img/img/logo.svg" alt="Logo do Site"></a>
+        <nav id="menu" class="menu">
+            <a href="">Inicio</a>
+            <a href="">Entrevistas</a>
+            <a href="">dowloads</a>
+            <a href="">Notícias</a>
+            <a href="">Resultados</a>
+        </nav>       
+
+<main>
+<div class="banner">
+  <div class="texto-banner">
+    <h1>MELHOR SITE DE JOGOS</h1>  
+  </div>      
+</div>    
+<section class="textosobreparticipar">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/img\carros.svgimg/carros.svg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/img/futebol.svg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/img/mascarado.svg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  <div id="espaco-noticias" class="comoparticipar">
+    
+        <div *ngfor="let noticias of listaNoticias" class="noticias1">
+           <h3 >{{noticias.titulo}}</h3>
+        <p>{{noticias.descricao}}</p>
+        </div>
+        <div *ngfor="let noticias of listaNoticias" class="noticias2">
+          <h3 >{{noticias.titulo}}</h3>
+       <p>{{noticias.descricao}}</p>
+       </div>
+       <div *ngfor="let noticias of listaNoticias" class="noticias3">
+        <h3 >{{noticias.titulo}}</h3>
+     <p>{{noticias.descricao}}</p>
+     </div>
+        </div>
+            
+    
+</section>
+</main>        
+<footer>
+    <div class="rodape">
+       <div class="link-footer">
+           <div class="link1">
+               <h2>Link úteis</h2>
+               <ul>
+                   <li><a href="#">regras do site</a></li>
+                   <li><a href="#">central de ajuda</a></li>
+                   <li><a href="#">suporte</a></li>
+                   <li><a href="#">download</a></li>
+               </ul>
+           </div>
+           <div class="link2">
+            <h2>páginas</h2>
+            <ul>
+                <li><a href="#">inicio</a></li>
+                <li><a href="#">contato</a></li>
+                <li><a href="#">cadastro</a></li>
+                <li><a href="#">login</a></li>
+            </ul>
+        </div>
+        
+       </div>
+    </div>
+ <div class="redes-sociais">
+        <h2>siga-nos em nossas redes</h2>
+    <a href="#"><img src="assets/img/img/instagram.svg"></a>
+    <a href="#"><img src="assets/img/img/Facebook.svg"></a>
+    <a href="#"><img src="assets/img/img/fb_messenger.svg"></a>
+</div>
+
+    <p class="direitos">Direitos autorais © 1996–2022 game mania.com™. 
+            Todos os direitos reservados.</p>
+</footer>
+    
